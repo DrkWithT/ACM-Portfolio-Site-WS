@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sample Portfolio Page</title>
+    <!-- 
+        TO-DO:
+        Add fake contact info
+        CSS stylesheet in other file
+        JS for cool interactive stuff if needed
+     -->
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="jump-link" href="#about-me">Back to Top</a>
+            <a class="jump-link" href="#skills">Skills</a>
+            <a class="jump-link" href="#projects">Projects</a>
+            <!-- <a class="jump-link" href="#contact">Contact</a> -->
+        </nav>
+    </header>
+    <div class="responsive-box">
+        <section id="about-me">
+            <h2>John Doe</h2>
+            <p>I'm a CS student at University XYZ eager to try new approaches to everlasting problems with modern C++ and Python. Also, I'm a hobby artist and an avid biker.</p>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Documentation</li>
+                <li>Python</li>
+                <li>Modern C++</li>
+                <li>Bash Scripting</li>
+            </ul>
+        </section>
+        <section id="experience-box">
+            <h2>My Experience</h2>
+            <div class="responsive-box">
+                <ul class="card-list">
+                    <li class="card">
+                        <h3>Company A (Internship)</h3>
+                        <hr>
+                        <h5>June 2022 - Aug 2022</h5>
+                        <p>Wrote Python and Ruby utilities to test code and automate documentation page making. Application of Agile methods and testing frameworks such as PyTest and Jekyll.</p>
+                    </li>
+                    <li class="card">
+                        <h3>Company B (Internship)</h3>
+                        <hr>
+                        <h5>June 2023 - Aug 2023</h5>
+                        <p>Automated code testing workflows and documentation with Python for a C++ server-side application. Used Agile methods.</p>
+                    </li>
+                    <li class="card">
+                        <h3>Company B (Current Job)/h3>
+                        <hr>
+                        <h5>July 2024 - now</h5>
+                        <p>Developing a fast, scalable web backend using modern C++ with Agile methods. Used TDD, CI/CD, and AWS.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="responsive-box">
+                <ul class="card-list">
+                    <li class="card">
+                        <h3>LAN Chat App</h3>
+                        <hr>
+                        <p>Created a GUI relay chat application with C++17 and Python using the GTKMM wrapper, CMake, and PyTest. Supports login checks and chat rooms.</p>
+                    </li>
+                    <li class="card">
+                        <h3>Expression Calculator</h3>
+                        <hr>
+                        <p>Created a Python CLI utility that can evaluate any math expression. Supports operator precedence, trig functions and more.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
