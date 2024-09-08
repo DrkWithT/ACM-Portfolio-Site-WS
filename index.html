@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Sample Portfolio Page</title>
+    <link rel="stylesheet" href="resources/style.css">
     <!-- 
         TO-DO:
-        Add fake contact info
         CSS stylesheet in other file
         JS for cool interactive stuff if needed
      -->
@@ -21,11 +21,11 @@
         </nav>
     </header>
     <div class="responsive-box">
-        <section id="about-me">
+        <section id="about-me" class="page-section">
             <h2>John Doe</h2>
             <p>I'm a CS student at University XYZ eager to try new approaches to everlasting problems with modern C++ and Python. Also, I'm a hobby artist and an avid biker.</p>
         </section>
-        <section id="skills">
+        <section id="skills" class="page-section">
             <h2>My Skills</h2>
             <ul>
                 <li>Documentation</li>
@@ -34,7 +34,7 @@
                 <li>Bash Scripting</li>
             </ul>
         </section>
-        <section id="experience-box">
+        <section id="experience-box" class="page-section">
             <h2>My Experience</h2>
             <div class="responsive-box">
                 <ul class="card-list">
@@ -50,23 +50,17 @@
                         <h5>June 2023 - Aug 2023</h5>
                         <p>Automated code testing workflows and documentation with Python for a C++ server-side application. Used Agile methods.</p>
                     </li>
-                    <li class="card">
-                        <h3>Company B (Current Job)/h3>
-                        <hr>
-                        <h5>July 2024 - now</h5>
-                        <p>Developing a fast, scalable web backend using modern C++ with Agile methods. Used TDD, CI/CD, and AWS.</p>
-                    </li>
                 </ul>
             </div>
         </section>
-        <section id="projects">
+        <section id="projects" class="page-section">
             <h2>My Projects</h2>
             <div class="responsive-box">
                 <ul class="card-list">
                     <li class="card">
                         <h3>LAN Chat App</h3>
                         <hr>
-                        <p>Created a GUI relay chat application with C++17 and Python using the GTKMM wrapper, CMake, and PyTest. Supports login checks and chat rooms.</p>
+                        <p>Created a GUI relay chat application with C++17 and Python using the GTKMM wrapper, CMake, and CTest. Supports login checks.</p>
                     </li>
                     <li class="card">
                         <h3>Expression Calculator</h3>
