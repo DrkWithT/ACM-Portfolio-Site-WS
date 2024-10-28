@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Portfolio Page</title>
+
+    <!-- include CSS -->
+    <link rel="stylesheet" href="resources/style.css">
+</head>
+<body>
+    <header>
+        <nav id="about-me">
+            <a class="jump-link" href="#about-me">Back to top</a>
+            <a class="jump-link" href="#skills">Skills</a>
+            <a class="jump-link" href="#experience-box">Experience</a>
+            <a class="jump-link" href="#projects">Projects</a>
+        </nav>
+    </header>
+    <!-- Interactive contacts badge -->
+    <div id="contact-overlay">
+        <button id="contact-btn">Show Contacts</button>
+        <p id="contact-info">
+            Phone: xxx-xxx-xxxx<br>
+            Email: johnd404@example.com<br>
+            GitHub: SampleGitHub
+        </p>
+    </div>
+    <!-- Main Content: About me, projects, etc. -->
+    <div class="responsive-box">
+        <section id="about-me">
+            <h2>John Doe</h2>
+            <p>
+                I'm a student at university X eager to try new approaches to problems and create cool software. Also, I'm a hobby artist and biker.
+            </p>
+        </section>
+        <section id="skills">
+            <ul>
+                <li>Documentation</li>
+                <li>Python</li>
+                <li>Bash Scripting</li>
+            </ul>
+        </section>
+        <section id="experience-box">
+            <h2>Experience</h2>
+            <ul class="card-list">
+                <li class="card">
+                    <h3>Company A</h3>
+                    <hr>
+                    <h5>June 2022 - Aug 2022</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic atque quae dolor? Vel eveniet omnis
+                        dolorum sapiente distinctio et? Labore voluptates itaque quam quae, autem qui modi dicta sint
+                        blanditiis?
+                    </p>
+                </li>
+                <li class="card">
+                    <h3>Company B</h3>
+                    <hr>
+                    <h5>June 2023 - Aug 2023</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic atque quae dolor? Vel eveniet omnis
+                        dolorum sapiente distinctio et? Labore voluptates itaque quam quae, autem qui modi dicta sint
+                        blanditiis?
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="card-list">
+                <li class="card">
+                    <h3>Project 1</h3>
+                    <hr>
+                    <h5>Used ReactJS, Bootstrap, NodeJS, MongoDB</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic atque quae dolor? Vel eveniet omnis
+                        dolorum sapiente distinctio et? Labore voluptates itaque quam quae, autem qui modi dicta sint
+                        blanditiis?
+                    </p>
+                </li>
+                <li class="card">
+                    <h3>Project 2</h3>
+                    <hr>
+                    <h5>Used Angular, Tailwind CSS, NodeJS, MySQL</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic atque quae dolor? Vel eveniet omnis
+                        dolorum sapiente distinctio et? Labore voluptates itaque quam quae, autem qui modi dicta sint
+                        blanditiis?
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <!-- JS -->
+    <script src="./resources/index.js"></script>
+</body>
+</html>
